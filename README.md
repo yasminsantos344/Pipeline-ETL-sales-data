@@ -15,6 +15,8 @@ The pipeline performs the following steps:
 - **Pandas** – Data manipulation and transformation  
 - **SQL** – Data querying and storage  
 - **MySQL** – Relational database for data persistence  
+- **FakeAPI** 
+GET https://fakestoreapi.com/products
 
 ---
 
@@ -34,6 +36,21 @@ The pipeline performs the following steps:
 - Connect to MySQL database  
 - Insert cleaned data into target tables  
 - Ensure data integrity and consistency  
+
+---
+## 🗂️ Project Structure
+
+```
+etl-sales-pipeline/
+│
+├── extract.py # Handles API data extraction
+├── transform.py # Data cleaning and transformation logic
+├── load.py # Database connection and data insertion
+├── main.py # Pipeline orchestration
+├── config.py # Configuration (API URL, DB credentials)
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
+```
 
 ---
 
