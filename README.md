@@ -12,11 +12,9 @@ The pipeline performs the following steps:
 
 ## ⚙️ Tech Stack
 - **Python** – Core programming language  
-- **Pandas** – Data manipulation and transformation  
 - **SQL** – Data querying and storage  
 - **MySQL** – Relational database for data persistence  
-- **FakeAPI** 
-GET https://fakestoreapi.com/products
+- **FakeAPI** - API to extract data
 
 ---
 
@@ -28,8 +26,6 @@ GET https://fakestoreapi.com/products
 
 ### 2. Transform
 - Remove duplicate records  
-- Handle missing or inconsistent values  
-- Standardize date formats (e.g., `YYYY-MM-DD`)  
 - Normalize column names and data types  
 
 ### 3. Load
